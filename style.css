@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --yasil: #a1c927;
+  --qirmizi: #fd634d;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: relative;
+  height: 100vh;
+  background: url("img/headerbg.jpg") 55%;
+  background-size: cover;
+  text-align: center;
+}
+nav {
+  padding: 40px 50px;
+}
+#menu {
+  padding: 1em 0 0 0;
+}
+
+#menu li {
+  list-style: none;
+}
+#menu ul a {
+  list-style: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Avenir Next Rounded Std";
+}
+#title {
+  position: absolute;
+  width: 100%;
+  bottom: 16.5vh;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Myriad Pro";
+}
+#title h1 {
+  font-size: 30px;
+}
+#title h5 {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font: normal 1.5em "Open Sans";
+  padding: 1em 0 0 0;
+}
+h6 {
+    font: 400 0.9em Montserrat;
+    text-transform: uppercase;
+  }
+h2 {
+    font: 300 2.1em "Open Sans";
+    text-transform: uppercase;
+  }
+.txtag {
+  color: #fff;
+}
+.txtyasil {
+  color: #a1c927;
+}
+.txtqirmizi {
+  color: #fd634d;
+}
+.bgyasil {
+  background-color: #a1c927;
+}
+.bgqirmizi {
+  background-color: #fd634d;
+}
+.bgag {
+  background-color: #fff;
+}
+.vh50 {
+  min-height: 50vh;
+}
+.artpadding {
+  padding: 50px 40px;
+}
+.txtcenter {
+  text-align: center;
+}
+
+#art4 {
+  padding: 80px 0;
+}
+#art4 article {
+  padding: 40px 10px;
+}
+#art4 i {
+  font-size: 3em;
+}
+#art4 p {
+  font: 0.9em/1.5 "Proxima Nova";
+  padding: 1em 0;
+}
+#fitnessfirst {
+  background: url("img/fitnessfirst.jpg") center/cover;
+}
+#yourbody {
+  background: url("img/youbody.jpg") center/cover;
+}
+#lifestyle {
+  background: url("img/lifestyle.jpg") center/cover;
+}
+#summeroffun {
+  background: url("img/summeroffun.jpg") center/cover;
+}
+#grape {
+  background: url("img/grape.jpg") center/cover;
+}
+#mango {
+  background: url("img/mango.jpg") center/cover;
+}
+#person{
+    background: url("img/personbg.jpg") center/cover;
+    height: 100vh;
+}
+#person{
+color: #fff;
+
+}
+#person h1{
+font-size: 45px;
+font-weight: 400;
+font-family: "Open Sans";
+padding: 230px 0 0 0;
+}
+#person p{
+    padding: 25px 10px 0 0;
+    line-height: 23px;
+}
+
+footer{
+    background-color: #0c1119;
+    font-family: "Open Sans";
+    height: 100vh;
+}
+.top{
+    padding: 34px 0 10px 10px;
+}
+.top h5{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.top p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #8297a7;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+}
+.top a{
+    font-size: 40px;
+    padding: 0 10px;
+}
+.fa-facebook{
+  color: #2e3092;  
+}
+.fa-twitter{
+    color: #00adef;  
+  }
+  .fa-youtube{
+    color: #ed3123;  
+  }
+  .fa-linkedin-in{
+    color: #16198f;  
+  }
+  .bottom{
+    text-align: center;
+  }
+  .bottom .inp1{
+    width: 90%;
+    height: 45px;
+margin: 10px 0;
+  }
+.bottom .inp2{
+    width: 90%;
+    height: 45px;
+    margin-bottom: 10px;
+    
+}
+  .bottom a{
+    display: block;
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+  }
+  
+@media only screen and (min-width: 768px) {
+  header {
+    text-align: initial;
+  }
+  #menu {
+    float: right;
+  }
+  #menu li {
+    display: inline-block;
+    margin: 0 0 0 4vw;
+  }
+  #title {
+    width: initial;
+    left: 7vw;
+  }
+  #title h1 {
+    font-size: 2.5em;
+  }
+ #title h5 {
+    text-align: right;
+    padding: 10px 20px;
+  }
+
+  .container {
+    max-width: 1180px;
+    margin: auto;
+  }
+  #art4 {
+    display: flex;
+  }
+  .row::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .col25 {
+    width: 25%;
+  }
+  .col33 {
+    width: 33.33%;
+  }
+  .col66 {
+    width: 66.66%;
+  }
+  .fleft {
+    float: left;
+  }
+  .fright {
+    float: right;
+  }
+  #person p{
+    width: 518px;
+    height: 46px;
+    margin: auto;
+  }
+  .top{
+    display: flex;
+  }
+  .top div{
+    width: 33.33%;
+   
+  }
+  .bottom{
+    margin-right: 80px;
+
+  }
+  .bottom .inp1{
+    width: 200px;
+    height: 45px;
+  }
+   .bottom .inp2{
+    width: 337px;
+    height: 45px;
+}
+  .bottom a{
+    display: initial;
+    width: 185px;
+    height: 45px;
+    padding: 11px 20px;
+  }
+
+}
